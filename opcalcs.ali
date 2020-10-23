@@ -1,0 +1,235 @@
+V "GNAT Lib v2020"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+
+U opcalcs%b		opcalcs.adb		34eefc18 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stackpkg%s		stackpkg.adb		stackpkg.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20200228061809 76789da1 ada%s
+D a-charac.ads		20200228061809 2d3ec45b ada.characters%s
+D a-chahan.ads		20200228061809 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20200228061809 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200228061809 a7106115 ada.exceptions%s
+D a-finali.ads		20200228061809 bf4f806b ada.finalization%s
+D a-inteio.ads		20200228061809 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200228061809 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061809 119b8fb3 ada.streams%s
+D a-string.ads		20200228061809 90ac6797 ada.strings%s
+D a-strmap.ads		20200228061809 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200304060543 1656705b ada.strings.unbounded%s
+D a-suteio.ads		20200228061809 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20200228061809 edddc8f0 ada.tags%s
+D a-textio.ads		20200228061809 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200228061809 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200228061809 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200228061809 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061809 e53d8b8e interfaces.c_streams%s
+D opcalcs.adb		20201022233940 4337be48 opcalcs%b
+D stackpkg.ads		20201013233756 09e92267 stackpkg%s
+D stackpkg.adb		20201016004325 e384e6b6 stackpkg%b
+D system.ads		20200228061809 085b6ffb system%s
+D s-atocou.ads		20200228061809 b45c2d8d system.atomic_counters%s
+D s-conca3.ads		20200228061809 0b705ca5 system.concat_3%s
+D s-crtl.ads		20200228061809 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200228061809 54135002 system.exception_table%s
+D s-ficobl.ads		20200228061809 078245e4 system.file_control_block%s
+D s-finmas.ads		20200228061809 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200228061809 4ff27390 system.finalization_root%s
+D s-memory.ads		20200228061809 597d6634 system.memory%s
+D s-parame.ads		20200228061809 4752c4cb system.parameters%s
+D s-secsta.ads		20200327060539 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200228061809 a7318a92 system.soft_links%s
+D s-stache.ads		20200228061809 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200228061809 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200228061809 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200228061809 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200313060446 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200317060514 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200424050625 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200228061809 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200319060539 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200228061809 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [opcalcs standard 11 11 none]
+G r i none [opcalcs standard 11 11 none] [stackpkg standard 17 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 1r35 2r6 2r31 3r6 3r23 4r6 4r33 5r6 5r41 359r17
+X 2 a-charac.ads
+16K13*Characters 18e19 20|1r10 1r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 20|1w21 1r50
+50V13*Is_Digit{boolean} 20|357s19
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[16|46] 20|2w10 2r35 359r21
+X 10 a-string.ads
+16K13*Strings 35e16 20|4r10 4r37 5r10 5r45
+X 12 a-strunb.ads
+82K21*Unbounded 758e26 20|4w18 4r45 5r18 5r53
+87R9*Unbounded_String<6|43R9> 741e14 20|114r20
+X 13 a-suteio.ads
+39K31*Text_IO 61e34 20|5w28 5r63
+X 15 a-textio.ads
+57K13*Text_IO 727e16 20|3w10 3r27
+264U14*New_Line 20|233s9 333s9 378s9
+273U14*Skip_Line 20|352s17 384s9
+315V13*End_Of_File{boolean} 20|382s15
+381U14*Get 20|356s17 366s17 373s17
+392U14*Put 20|134s29 152s29 170s21 176s21 285s21 296s21
+406U14*Look_Ahead 20|350s13
+465U14*Put 20|186s21 215s21 313s21 325s21
+X 16 a-tiinio.ads
+59U14*Get 20|359s37[7|18]
+80U14*Put 20|125s17[7|18] 232s9[7|18] 264s17[7|18] 332s9[7|18]
+X 20 opcalcs.adb
+11U11*opcalcs 11b11 386l5 386t12
+12E10 charType 12e32 16r37
+12n23 Num{12E10} 18r18 26r61
+12n28 Sym{12E10} 20r18 27r61
+16R10 equationElements 16d27 23e15 26r44 27r44
+16e27 theType{12E10} 17r14
+19i17 number{integer} 123r53 262r53 361m39
+21e17 symbol{character} 59r27 116r22 129r48 130r49 133r51 143r48 144r49 147r51
+. 148r49 151r51 167r53 256r22 272r77 282r53 298r44 355m39 365m39 371m39
+26A10 numberArray(16R10)<integer> 100r35 239r36 339r18
+27A10 symbolArray(16R10)<integer> 57r40 100r57 239r58 340r18
+30E13 symbolType{character} 34r69 177r45 184r39 199r57 363r31
+34K13 symbolStackPkg[21|17] 35r9 43r44 73r30 102r24 241r25
+38K13 numberStackPkg[21|17] 39r9 72r45 101r24 240r25
+43V14 checkTop{boolean} 43b14 43=23 54l9 54t17 198s35 219s31 290s27 308s27
+. 319s27
+43r23 symbolStack{21|19R14[34]} 45r24 46r20
+57V14 isIndexLeftParen{boolean} 57b14 57>31 57>53 64l9 64t25 172s40 173s44
+. 195s48 196s52 205s48 206s52 210s44 211s48 287s40 288s44 327s40 328s44
+57a31 arr{27A10} 59r16
+57i53 index{integer} 59r20
+72V14 evaluate{integer} 72b14 72=23 73=9 95l9 95t17 131s39 135s39 145s39
+. 149s39 153s39 178s35 191s43 200s47 220s39 273s39 291s35 309s35 320s35
+72r23 integerStack{21|19R14[38]} 79r29 80m13 81r28 82m13
+73r9 symbolStack{21|19R14[34]} 83r23 84m13
+74i9 firstNumber{integer} 81m9 86r23 88r23 90r23 92r23
+75i9 secondNumber{integer} 79m9 86r37 88r37 90r37 92r37
+76i9 answer{integer} 86m13 88m13 90m13 92m13 94r16
+77e9 symbol{character} 83m9 85r12 87r15 89r15 91r15
+100U15 orderOfOpp 100b15 100>26 100>48 234l9 234t19 377s9
+100a26 numArr{26A10} 123r33
+100a48 symArr{27A10} 116r12 129r28 130r29 133r31 143r28 144r29 147r31 148r29
+. 151r31 167r33 172r57 173r61 195r65 196r69 205r65 206r69 210r61 211r65
+101r9 orderOfOppNS{21|19R14[38]} 124m36 124r36 131m48 131r48 132m42 132r42
+. 135m48 135r48 136m42 136r42 145m48 145r48 146m42 146r42 149m48 149r48 150m42
+. 150r42 153m48 153r48 154m42 154r42 178m44 178r44 179m38 179r38 191m52 191r52
+. 192m46 192r46 200m56 200r56 201m50 201r50 217r39 220m48 220r48 221m42 221r42
+102r9 orderOfOppSS{21|19R14[34]} 127r32 128r28 128r55 131m62 131r62 135m62
+. 135r62 138r36 139m37 139r37 142r31 142r58 145m62 145r62 149m62 149r62 153m62
+. 153r62 156r36 157m37 157r37 169m40 169r40 177r28 178m58 178r58 181r28 182m29
+. 182r29 187r36 189r36 190r37 191m66 191r66 194m48 194r48 198m44 198r44 199r40
+. 200m70 200r70 204m48 204r48 209m44 209r44 216r32 219m40 219r40 220m62 220r62
+. 225m40 225r40
+103b9 lastValueWasInt{boolean} 117m13 122r20 162m17 172m21 195m29 205m29
+. 210m25 227m21
+104b9 lastValueWasSym{boolean} 163m17 166r23 173m21 196m29 206m29 211m25
+. 228m21
+105b9 doneWithEquation{boolean} 119r19 214m21
+106b9 leftParenAhead{boolean}
+107b9 rightParenAhead{boolean}
+108i9 numberIndex{integer} 123r40 126m17 126r32
+109i9 symbolIndex{integer} 129r35 130r36 133r38 137m29 137r44 143r35 144r36
+. 147r38 148r36 151r38 155m29 155r44 167r40 171m21 171r36 172r65 173r69 175m21
+. 175r36 185m21 185r36 195r73 196r77 205r73 206r77 210r69 211r73 226m21 226r36
+110i9 numberOffArr{integer} 123m17 124r22 125r21
+111e9 symbolOffArr{character} 167m17 168r20 169r26 170r25 174r23 176r25 184r23
+. 186r31 188r28 188r50 194r34 197r31 197r53 204r34 209r30 213r23 225r26
+112i9 numberOfIntsOnStack{integer}
+113i9 answer{integer} 131m29 132r34 135m29 136r34 145m29 146r34 149m29 150r34
+. 153m29 154r34 178m25 179r30 191m33 192r38 200m37 201r42 217m25 220m29 221r34
+. 232r13
+114r9 equation{12|87R9}
+239U15 leftToRight 239b15 239>27 239>49 334l9 334t20 376s9
+239a27 numArr{26A10} 262r33
+239a49 symArr{27A10} 256r12 272r57 282r33 287r57 288r61 298r24 327r57 328r61
+240r9 leftToRightNS{21|19R14[38]} 263m36 263r36 273m48 273r48 274m42 274r42
+. 291m44 291r44 292m38 292r38 309m44 309r44 310m38 310r38 316r39 320m44 320r44
+. 321m38 321r38
+241r9 leftToRightSS{21|19R14[34]} 270r32 271r28 273m63 273r63 284m40 284r40
+. 290m36 290r36 291m59 291r59 295m25 295r25 308m36 308r36 309m59 309r59 315r32
+. 319m36 319r36 320m59 320r59 324m40 324r40
+242b9 lastValueWasInt{boolean} 257m13 261r20 279m17 287m21 300m25 303m25
+. 327m21
+243b9 lastValueWasSym{boolean} 280m17 281r23 288m21 301m25 304m25 328m21
+244b9 doneWithEquation{boolean} 260r19 307m21
+245b9 leftParenAhead{boolean} 258m13
+246b9 rightParenAhead{boolean} 299m25
+247i9 numberIndex{integer} 262r40 266m17 266r32
+248i9 symbolIndex{integer} 272r64 282r40 286m21 286r36 287r65 288r69 297m21
+. 297r36 298r31 314m21 314r36 326m21 326r36 327r65 328r69
+249i9 numberOffArr{integer} 262m17 263r22 264r21
+250e9 symbolOffArr{character} 282m17 283r20 284r26 285r25 289r23 296r25 306r23
+. 324r26 325r31
+251i9 numberOfIntsOnStack{integer} 265m17 265r40 272r28 275m29 275r52 293m25
+. 293r48 311m25 311r48 322m25 322r48
+252i9 answer{integer} 273m29 274r34 291m25 292r30 309m25 310r30 316m25 320m25
+. 321r30 332r13
+338U15 fillArr 338b15 379l9 379t16 383s9
+339a9 numArr{26A10} 361m17 361r17 376r21 377r20
+340a9 symArr{27A10} 355m17 355r17 365m17 365r17 371m17 371r17 376r29 377r28
+341b9 eol{boolean} 350m34 351r16
+342e9 nextChar{character} 350m24 353r19 353r37 355r49 356m21 357r28 358r18
+. 363r19 365r49 366m21 368r19 371r49 373m21
+343i9 numberCounter{integer} 360m17 360r34 361r24
+344i9 symbolCounter{integer} 354m17 354r34 355r24 364m17 364r34 365r24 370m17
+. 370r34 371r24
+345i9 currentInt{integer} 359m41 361r49
+346b9 integerSeen{boolean} 358r41 362m17 367m17
+347b9 equationSolved{boolean} 349r19 369m17
+X 21 stackpkg.ads
+13i9 Size{positive} 20|34r44 38r44
+15+14 ItemType 20|34r57 38r57
+17k9*StackPkg 20|6w6 34r35 38r35 21|49e13
+19R14 Stack 20|43r59[34] 72r60[38] 73r45[34] 101r39[38] 102r39[34] 240r40[38]
+. 241r40[34]
+25V18 isEmpty{boolean} 20|45s16[34] 127s24[34] 187s28[34] 216s24[34] 270s24[34]
+. 315s24[34]
+29U19 push 20|124s17[38] 132s29[38] 136s29[38] 146s29[38] 150s29[38] 154s29[38]
+. 169s21[34] 179s25[38] 192s33[38] 194s29[34] 201s37[38] 204s29[34] 209s25[34]
+. 221s29[38] 225s21[34] 263s17[38] 274s29[38] 284s21[34] 292s25[38] 310s25[38]
+. 321s25[38] 324s21[34]
+33U19 pop 20|80s9[38] 82s9[38] 84s9[34] 139s33[34] 157s33[34] 182s25[34]
+. 295s21[34]
+37V19 top{character} 20|46s16[34] 79s25[38] 81s24[38] 83s19[34] 128s24[34]
+. 128s51[34] 138s32[34] 142s27[34] 142s54[34] 156s32[34] 177s24[34] 181s24[34]
+. 189s32[34] 190s33[34] 199s36[34] 217s35[38] 271s24[34] 316s35[38]
+X 23 system.ads
+67M9*Address
+X 31 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
